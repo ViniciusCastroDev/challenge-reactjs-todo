@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--gray-700);
+
+  height: 12.5rem;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  width: 7.8rem;
+  height: 3rem;
+}
+
+.headerInput {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+
+  width: 46rem;
+  height: 3.2rem;
+  margin-top: 12rem;
+}
+
+.headerInput input {
+  width: 40rem;
+  height: 3.2rem;
+  border-radius: 8px;
+  border: 0;
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+  padding-left: 1rem;
+}
+
+.headerInput input:focus {
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+}
+
+.buttonCreate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  width: 5.6rem;
+  height: 3.2rem;
+
+  border-radius: 8px;
+  border: 0;
+  padding: 1rem;
+  color: var(--gray-100);
+  background-color: var(--blue);
+  gap: 0.5rem;
+}
+
+.buttonCreate button[type="submit"]:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.buttonCreate p {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
